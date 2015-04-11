@@ -7,6 +7,7 @@ function fillColors () {
 	
 	var hexes = document.getElementsByClassName("hex");
 	for (var i = 0; i < hexes.length; i++) {
+		hexes[i].className = "hex";
 		var landType = landTypes[Math.floor(Math.random() * landTypes.length)];
 		hexes[i].classList.add(landType);		
 		landCounts[landType]++;
@@ -19,4 +20,6 @@ function fillColors () {
 
 fillColors();
 
-
+document.getElementById("colors").addEventListener("click", function () {
+	fillColors();
+});

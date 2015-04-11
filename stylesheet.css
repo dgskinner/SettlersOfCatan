@@ -70,23 +70,23 @@
 }
 
 .hex.wheat .top {
-	border-bottom: 30px solid yellow;
+	border-bottom: 30px solid #FFFF33;
 }
 .hex.wheat .middle {
-	background: yellow;
+	background: #FFFF33;
 }
 .hex.wheat .bottom {
-    border-top: 30px solid yellow;
+    border-top: 30px solid #FFFF33;
 }
 
 .hex.brick .top {
-	border-bottom: 30px solid red;
+	border-bottom: 30px solid #D00000;
 }
 .hex.brick .middle {
-	background: red;
+	background: #D00000;
 }
 .hex.brick .bottom {
-    border-top: 30px solid red;
+    border-top: 30px solid #D00000;
 }
 
 #buttons {
