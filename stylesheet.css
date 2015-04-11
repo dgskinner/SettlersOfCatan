@@ -1,5 +1,9 @@
 /*http://jtauber.github.io/articles/css-hexagon.html*/
 
+body {
+	background: #F0F0F0;
+}
+
 #board {
 	margin: 50px
 }
@@ -19,6 +23,9 @@
 .hex .middle {
     width: 104px;
     height: 60px;
+	line-height: 60px;
+	font-size: 36pt;
+	text-align: center;
 }
 
 .hex .bottom {
