@@ -1,33 +1,104 @@
 /*http://jtauber.github.io/articles/css-hexagon.html*/
 
+#board {
+	margin: 50px
+}
+
 .hex {
     float: left;
     margin-left: 3px;
     margin-bottom: -26px;
 }
+
 .hex .top {
     width: 0;
-    border-bottom: 30px solid #6C6;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
+
 .hex .middle {
     width: 104px;
     height: 60px;
-    background: #6C6;
 }
+
 .hex .bottom {
     width: 0;
-    border-top: 30px solid #6C6;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
+
 .hex-row {
     clear: left;
 }
+
 .hex-row.short {
     margin-left: 106px;
 }
+
 .hex-row.medium {
     margin-left: 53px;
+}
+
+.hex.ore .top {
+	border-bottom: 30px solid gray;
+}
+.hex.ore .middle {
+	background: gray;
+}
+.hex.ore .bottom {
+    border-top: 30px solid gray;
+}
+
+.hex.wood .top {
+	border-bottom: 30px solid green;
+}
+.hex.wood .middle {
+	background: green;
+}
+.hex.wood .bottom {
+    border-top: 30px solid green;
+}
+
+.hex.sheep .top {
+	border-bottom: 30px solid lightgreen;
+}
+.hex.sheep .middle {
+	background: lightgreen;
+}
+.hex.sheep .bottom {
+    border-top: 30px solid lightgreen;
+}
+
+.hex.wheat .top {
+	border-bottom: 30px solid yellow;
+}
+.hex.wheat .middle {
+	background: yellow;
+}
+.hex.wheat .bottom {
+    border-top: 30px solid yellow;
+}
+
+.hex.brick .top {
+	border-bottom: 30px solid red;
+}
+.hex.brick .middle {
+	background: red;
+}
+.hex.brick .bottom {
+    border-top: 30px solid red;
+}
+
+#buttons {
+	display: block;
+	margin-top: 150px;
+	margin-left: 70px;
+}
+
+button {
+	margin: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	background: white;
+	font-size: 18px;
 }
